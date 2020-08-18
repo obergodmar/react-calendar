@@ -1,0 +1,30 @@
+.calendar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 224px;
+    height: 274px;
+    padding: 13px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid gray;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    user-select: none;
+}
+
+.todayButton {
+    align-self: flex-end;
+    margin-top: 5px;
+    margin-right: 7px;
+    color: #0078d4;
+    font-size: 13px;
+    background-color: #fff;
+    border: none;
+}
+
+.todayButton:hover {
+    background-color: #b2d5ff;
+}

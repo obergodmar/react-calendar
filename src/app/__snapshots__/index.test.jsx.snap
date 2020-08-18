@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar app Should match snapshot 1`] = `
+<Fragment>
+  <div
+    className="calendarContainer"
+  >
+    <button
+      className="input"
+      onClick={[Function]}
+    >
+      02 / 01 / 1970
+    </button>
+  </div>
+</Fragment>
+`;
+
+exports[`Calendar app Should render calendar and match snapshot 1`] = `
+<Fragment>
+  <div
+    className="calendarContainer"
+  >
+    <button
+      className="input"
+      onClick={[Function]}
+    >
+      02 / 01 / 1970
+    </button>
+    <div
+      className="calendar"
+      style={
+        Object {
+          "top": 0,
+          "transform": "translateY(0)",
+          "transition": "transform .2s ease-out",
+          "zIndex": 1,
+        }
+      }
+    >
+      <CalendarContainer
+        changeDate={[Function]}
+        date={1970-01-31T21:00:00.000Z}
+        isOpened={false}
+        onClose={[Function]}
+        onOpen={[Function]}
+        zIndex={1}
+      />
+    </div>
+  </div>
+</Fragment>
+`;

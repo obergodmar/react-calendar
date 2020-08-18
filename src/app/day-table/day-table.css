@@ -1,0 +1,61 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-align: center;
+}
+
+.list,
+.row {
+    list-style: none;
+}
+
+.weekday {
+    width: 28px;
+    height: 20px;
+}
+
+.day {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: default;
+}
+
+.day:focus {
+    outline: none;
+}
+
+.day:focus,
+.day:hover {
+    background-color: #b2d5ff;
+}
+
+.dayOther {
+    color: gray;
+}
+
+.dayToday {
+    border: 1px solid black;
+}
+
+.daySelected {
+    color: #fff;
+    font-weight: 600;
+    background-color: #0075ff;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.daySelected:focus,
+.daySelected:hover {
+    background-color: #0075ff;
+    border-radius: 0;
+}

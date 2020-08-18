@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../assets/Roboto.ttf") format("truetype");
+}
+
+.calendar {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    font-family: Roboto, sans-serif;
+}
+
+.calendarContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 1px;
+}
+
+.input::after {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAADsAAAA7AF5KHG9AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAUdJREFUWIXt1z1KA0Ech+EHP9DWgE3AwiJWgQjBC4iNWCSVlnZ2FnoEj2GnjXqBVGppYWmjpMkBvIAYk1hkgsNmdzHgxmZ/MMww/6+XnZllhmxt4QEfGOAVrRz/iVrBdxBi70OumbSCLkaJ9olGTtx28EnGdUPOKS3kJKqF8TEO0MMy2jkA7eDTCzHHYb4Wck5pKSNRJRpfh/4NmwlbUmuRbyeMr1JypgI0sGP8Veo5Reo4ybFlaR8bGOIZL7HxCF+m124U+XQy7GmtE8Wl2b9wyM8eOMNiDv1faxHnMUDeuhalCtmbMNYF3tGcIXkTp1j/bUDamS+6dcn+D8xNySW4w2PBNXeNT10qwBMuCwZYjQH+fQlKgBKgBCgBSoASoAT4d4DJhWQY+i3sFVxz8lAdxpO35n8pvYkBqsZP8f4cCveNn+xV+AbZgZkQYPQz1AAAAABJRU5ErkJggg==");
+    background-size: 14px;
+    content: "";
+}

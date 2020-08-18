@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Year Picker Should match snapshot 1`] = `
+<div
+  className="yearPicker"
+>
+  <button
+    className="button doubleLeft"
+    onClick={[Function]}
+  />
+  <button
+    className="button left"
+    onClick={[Function]}
+  />
+  <span>
+    1970
+  </span>
+  <button
+    className="button right"
+    onClick={[Function]}
+  />
+  <button
+    className="button doubleRight"
+    onClick={[Function]}
+  />
+</div>
+`;

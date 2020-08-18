@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Month Select Button Should match snapshot 1`] = `
+<div
+  className="buttonGroup"
+>
+  <button
+    className="monthSelectButton"
+    onClick={[MockFunction]}
+  >
+    <span>
+      January 1970
+    </span>
+    <span
+      className="selectIcon"
+    />
+  </button>
+  <div
+    className="buttonUpDown"
+  >
+    <button
+      className="buttonUp"
+      onClick={[Function]}
+    />
+    <button
+      className="buttonDown"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

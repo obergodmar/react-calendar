@@ -1,0 +1,66 @@
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 13px;
+}
+
+.buttonUpDown {
+    display: flex;
+    align-items: center;
+}
+
+.buttonUp,
+.buttonDown {
+    width: 25px;
+    height: 20px;
+    font-family: Roboto, sans-serif;
+    background:
+        url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAACXBIWXMAAA8AAAAPAAEXcSFwAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAGNQTFRFAAAAKysrJCQkJycUJCQkICAgHR0dHBwcHh4eHR0dHh4eHh4eHSMdHCEcHh4eHiIeHSEdHSAdHx8cHx8cHiIeHSAdHiAeHiAcHSAdHiAdHyAdHiAdHiAdHiAdHiAdHiAdHiAdXqmzOwAAACB0Uk5TAAYHDQ4YGhsiIyorLC5DREZHSUpMaW/O0NbZ2vf4+f21tk5jAAAAiElEQVQ4y+3QWxaCIBSF4W0WaXfNkkRyz3+UaUki68gIPIsn/o/zADAbpbVCZHYv0uzjPSaUYcf+GLX4/v0kH+3CjqFXOZnfZPHtGABE0Xdb4QckMfYRoAiF6w6EYtuwLeADlJZN+gdH1yeAu+VhWnE9IQQ4X6TP8IA8K1iBPxmZRcFG18n85gPxehI6iMeA4gAAAABJRU5ErkJggg==")
+        no-repeat 50%,
+        #fff;
+    background-size: 15px;
+    border: none;
+}
+
+.buttonUp:hover,
+.buttonDown:hover {
+    background-color: #b2d5ff;
+}
+
+.buttonDown {
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+
+.monthSelectButton {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: black;
+    font-weight: 600;
+    line-height: 1.53;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+.selectIcon {
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    border-top: 4px solid #2c3136;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.selectShown {
+    color: lightgray;
+}
+
+.selectIconShown {
+    border-top-color: lightgray;
+}

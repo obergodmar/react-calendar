@@ -1,0 +1,48 @@
+.monthSelect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 140px;
+    list-style: none;
+}
+
+.monthSelectItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: default;
+}
+
+.monthSelectItem:focus {
+    outline: none;
+}
+
+.monthSelectItem:hover,
+.monthSelectItem:focus {
+    background-color: #b2d5ff;
+}
+
+.monthSelectItemSelected {
+    color: #fff;
+    font-weight: 600;
+    background-color: #0075ff;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.monthSelectItemSelected:focus,
+.monthSelectItemSelected:hover {
+    background-color: #0075ff;
+    border-radius: 0;
+}
+
+.monthSelectItemToday {
+    border: 1px solid black;
+}

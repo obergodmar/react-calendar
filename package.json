@@ -1,0 +1,102 @@
+{
+  "name": "react-calendar",
+  "version": "1.0.0",
+  "description": "A Simple React calendar widget or data picker",
+  "main": "src/example.jsx",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "parcel build --no-source-maps src/example.jsx",
+    "eslint": "npx eslint --ext .js,.jsx ./src",
+    "eslint:fix": "npx eslint --ext .js,.jsx . --fix ./src",
+    "stylelint": "npx stylelint \"src/**/*.css\"",
+    "stylelint:fix": "npx stylelint --fix \"src/**/*.css\"",
+    "test:test": "jest",
+    "test:u": "jest -u",
+    "test:cov": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:obergodmar/react-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/obergodmar/react-calendar/issues"
+  },
+  "homepage": "https://obergodmar.github.io/react-calendar",
+  "author": {
+    "name": "obergodmar",
+    "email": "obergodmar@gmail.com",
+    "url": "https://github.com/obergodmar"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@jest/globals": "^26.3.0",
+    "autoprefixer": "^9.8.5",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "jest": "^26.3.0",
+    "jest-css-modules": "^2.1.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^3.2.0",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "enzyme-to-json": "^3.5.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "classnames": "^2.2.6",
+    "date": "^1.0.2",
+    "prop-types": "^15.7.2",
+    "date-fns": "^2.15.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "postcss": {
+    "modules": true,
+    "plugins": {
+      "autoprefixer": {
+        "grid": false
+      }
+    }
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "jest-css-modules"
+    },
+    "collectCoverageFrom": [
+      "./src/**/*.{js,jsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "./src/example.jsx"
+    ],
+    "setupFilesAfterEnv": [
+      "./src/setup-tests.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
+  }
+}
