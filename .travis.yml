@@ -3,5 +3,7 @@ node_js:
   - lts/*
 script:
   - npm install codecov -g
+  - npm run test
+  - npm run build
 after_success:
   - codecov
