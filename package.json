@@ -5,12 +5,12 @@
   "main": "src/example.jsx",
   "scripts": {
     "start": "parcel src/index.html",
-    "test": "parcel build --no-source-maps src/example.jsx",
+    "build": "parcel build --no-source-maps src/example.jsx",
+    "test": "npm run test:cov && npm run build",
     "eslint": "npx eslint --ext .js,.jsx ./src",
     "eslint:fix": "npx eslint --ext .js,.jsx . --fix ./src",
     "stylelint": "npx stylelint \"src/**/*.css\"",
     "stylelint:fix": "npx stylelint --fix \"src/**/*.css\"",
-    "test:test": "jest",
     "test:u": "jest -u",
     "test:cov": "jest --coverage"
   },
