@@ -1,5 +1,5 @@
 {
-  "name": "react-calendar",
+  "name": "react-calendar-data-picker",
   "version": "1.0.0",
   "description": "A Simple React calendar widget or data picker",
   "main": "src/example.jsx",
