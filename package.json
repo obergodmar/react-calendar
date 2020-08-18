@@ -10,7 +10,7 @@
     "eslint:fix": "npx eslint --ext .js,.jsx . --fix ./src",
     "stylelint": "npx stylelint \"src/**/*.css\"",
     "stylelint:fix": "npx stylelint --fix \"src/**/*.css\"",
-    "test": "jest",
+    "test": "npm run test:u && npm run test:cov",
     "test:u": "jest -u",
     "test:cov": "jest --coverage"
   },
