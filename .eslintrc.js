@@ -16,6 +16,11 @@ module.exports = {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
   },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   rules: {
     "import/no-extraneous-dependencies": [
       "warn",

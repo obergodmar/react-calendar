@@ -1,9 +1,9 @@
 # Date Picker aka Calendar Widget
 
-> A Simple React calendar widget or data picker
+> A Simple React calendar widget or date picker
 
 [![Build Status](https://travis-ci.org/obergodmar/react-calendar.svg?branch=develop)](https://travis-ci.org/obergodmar/react-calendar)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://www.npmjs.com/package/react-calendar-data-picker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://www.npmjs.com/package/react-calendar-date-picker)
 [![codecov](https://codecov.io/gh/obergodmar/react-calendar/branch/develop/graph/badge.svg)](https://codecov.io/gh/obergodmar/react-calendar)
 
 ## [Live Demo](https://obergodmar.github.io/react-calendar)
