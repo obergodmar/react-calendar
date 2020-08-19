@@ -5,3 +5,5 @@ dist
 .vscode
 .idea
 .npmrc
+package-lock.json
+yarn.lock
