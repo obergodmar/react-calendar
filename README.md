@@ -39,4 +39,4 @@
 * Firefox
 * Chrome
 * Opera
-* *Safari* - **Not tested**
+* Safari

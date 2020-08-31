@@ -175,9 +175,7 @@ export const Example = () => {
                 <li>Firefox</li>
                 <li>Chrome</li>
                 <li>Opera</li>
-                <li>
-                  <i>Safari</i> - <strong>Not tested</strong>
-                </li>
+                <li>Safari</li>
               </ul>
             </div>
           </article>
